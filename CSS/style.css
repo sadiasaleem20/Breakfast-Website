@@ -1,0 +1,199 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Aachen;
+}
+
+@font-face{
+font-family:Aachen;
+src:url('../fonts/Aachen_Std_Medium.otf');
+}
+
+a{
+text-decoration:none;
+}
+
+li{
+list-style:none;
+}
+
+.bg-main{
+background-image:url('../images/headerBackground.png');
+/*opacity: 0.5;
+transition: opacity 0.5s ease;
+filter: grayscale(50%);*/
+}
+
+/*navbar*/
+
+.nav-link{
+color:white;
+font-family:Aachen;
+}
+
+.home{
+color:#F6BE00;
+}
+
+.nav-link:hover{
+color:#F6BE00;
+}
+
+.logo{
+height:60px;
+padding:0;
+margin:0;
+}
+
+/*navbar ends*/
+
+/*hero section starts*/
+
+.hero-img-section{
+height:400px;
+width:550px;
+}
+
+h1{
+letter-spacing:0.09rem;
+font-size:3.6rem;
+word-spacing:10px;
+color:#FF8C00;
+}
+
+p{
+margin:0;
+font-weight:400;
+font size:1rem;
+letter-spacing:0.07rem;
+line-height:1.55rem;
+}
+
+.btn{
+font-size:1.15rem;
+letter-spacing:0.03rem;
+word-spacing:.1rem;
+background-color:#FF8C00;
+}
+
+/*about us starts*/
+
+.about-us{
+background-color:black;
+}
+
+.about-img{
+height:480px;
+}
+/*about us ends*/
+
+/*our food quality starts*/
+
+
+/*our food quality ends*/
+
+/*food gallery starts*/
+
+.bg-color{
+background-color:black;
+}
+
+.common-heading{
+font-size:2.8rem;
+font-weight:500;
+letter-spacing:0.01rem;
+}
+
+/*food gallery ends*/
+
+/*enjoy food starts*/
+
+.bg-img{
+background-image: url('../images/enjoy_food.png');
+background-size:cover;
+height:100vh;
+}
+
+.div-center{
+margin:12%;
+margin-left:280px;
+border-style: solid;
+border-color:#FF8C00;
+border-width:7px;
+}
+/*enjoy food ends*/
+
+/*menu starts*/
+
+h2,h3{
+color:#FF8C00;
+font-size:23px;
+}
+
+.arrow{
+color:white;
+}
+/*menu ends*/
+
+/*enjoy-best meal starts*/
+
+.bg-meal{
+background-color:#FF8C00;
+height:298px;
+margin-top:33px;
+}
+
+.marzi{
+position:absolute;
+}
+
+.width{
+width:400px;
+}
+
+
+.meal-img{
+margin:0;
+padding:0;
+margin-left:0px;
+}
+
+.meal-txt{
+margin-left:60px;
+}
+
+/*enjoy-best meal ends*/
+
+.last{
+background-color:#343434;
+}
+
+.logo1{
+margin-left:500px;
+}
+
+.logo2{
+margin-right:500px;
+}
+
+h5{
+font-family: 'Roboto', sans-serif;
+color:white;
+margin-left: 330px;
+font-size:15px;
+font-weight:530;
+}
+
+i{
+color:white;
+}
+
+.brand{
+font-size:20px;
+}
+
+.brand-logo{
+margin-left:450px;
+width:30%;
+}
